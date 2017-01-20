@@ -52,7 +52,7 @@ cbuffer cbTextureData : register(b2)
 
 cbuffer cbPerDraw : register(b0)
 {
-	float4x4 tVP : VIEWPROJECTION;
+	float4x4 tP : PROJECTION;
 	int VPCount: VIEWPORTCOUNT;
 	int VPIndex: VIEWPORTINDEX;
 	float2 targetSize: TARGETSIZE;
@@ -67,7 +67,7 @@ psInput VS(vsInput input)
 	
 	// Aspect Ratio
 	float3 aspectRatio;
-	float coeff = tVP[0][0]  / tVP[1][1];
+	float coeff = tP[0][0]  / tP[1][1];
 	
 	if (coeff >= 1)
 	{
@@ -105,7 +105,7 @@ psInputTextured VS_Textured(vsInputTextured input)
 	
 	// Aspect Ratio
 	float3 aspectRatio;
-	float coeff = tVP[0][0]  / tVP[1][1];
+	float coeff = tP[0][0]  / tP[1][1];
 	
 	if (coeff >= 1)
 	{
