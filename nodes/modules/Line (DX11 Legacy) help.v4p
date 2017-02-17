@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.1.dtd" >
-   <PATCH nodename="C:\Work\vvvv-private\public\vvvv45\packs\dx11\nodes\modules\Line (DX11 Legacy) help.v4p">
-   <BOUNDS height="8010" left="0" top="0" type="Window" width="23340">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="C:\Work\dx11-vvvv-girlpower\nodes\modules\Line (DX11 Legacy) help.v4p">
+   <BOUNDS height="8010" left="150" top="0" type="Window" width="23340">
    </BOUNDS>
    <NODE componentmode="InABox" id="2" nodename="IOBox (String)" systemname="IOBox (String)">
    <BOUNDS height="270" left="300" top="6810" type="Node" width="4755">
@@ -662,8 +662,6 @@
    </LINK>
    <LINK srcnodeid="73" srcpinname="Output" dstnodeid="64" dstpinname="Initial Longitude">
    </LINK>
-   <PACK Name="dx11" Version="0.7.2">
-   </PACK>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="33.7.0">
    </PACK>
    </PATCH>

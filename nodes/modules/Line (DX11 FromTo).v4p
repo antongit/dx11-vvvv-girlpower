@@ -1,9 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.106.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
    <PATCH nodename="C:\Work\dx11-vvvv-girlpower\nodes\modules\Line (DX11 FromTo).v4p" systemname="Line (DX11 FromTo)" filename="C:\vvvv\beta\vvvv_45beta33.3_x86\packs\dx11\nodes\modules\Line (DX11 FromTo).v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="1605" top="825" width="14745" height="9480">
+   <BOUNDS type="Window" left="1920" top="780" width="14745" height="9480">
    </BOUNDS>
-   
-   <PACK Name="addonpack" Version="34.101.0">
+   <PACK Name="addonpack" Version="33.7.0">
    </PACK>
    <NODE componentmode="InABox" id="62" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="8250" top="735" type="Node" width="0">

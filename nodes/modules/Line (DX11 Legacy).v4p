@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta31.2.dtd" >
-   <PATCH nodename="E:\repositories\vvvv\dx11-vvvv\girlpower\nodes\modules\Line (DX11).v4p" systemname="Line (EX9)">
-   <BOUNDS height="9480" left="3825" top="1425" type="Window" width="14745">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="C:\Work\dx11-vvvv-girlpower\nodes\modules\Line (DX11 Legacy).v4p" systemname="Line (EX9)">
+   <BOUNDS height="9480" left="10500" top="5505" type="Window" width="14745">
    </BOUNDS>
    <NODE componentmode="InABox" id="38" nodename="IOBox (Node)" systemname="IOBox (Node)">
    <BOUNDS height="0" left="2850" top="6465" type="Node" width="0">
@@ -777,7 +777,7 @@
    </PIN>
    <PIN pinname="Geometry" visible="1">
    </PIN>
-   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
+   <PIN pinname="Transform In" visible="1" slicecount="17" values=",,,,,,,,,,,,,,,,">
    </PIN>
    <PIN pinname="Point1XYZ" visible="1">
    </PIN>
@@ -872,4 +872,6 @@
    </LINK>
    <LINK srcnodeid="70" srcpinname="Output" dstnodeid="25" dstpinname="Data">
    </LINK>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
    </PATCH>

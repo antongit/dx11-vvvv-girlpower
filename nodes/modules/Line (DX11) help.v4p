@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.1.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
    <PATCH nodename="C:\Work\dx11-vvvv-girlpower\nodes\modules\Line (DX11) help.v4p" scrollx="0" scrolly="0">
-   <BOUNDS height="8610" left="0" top="0" type="Window" width="23340">
+   <BOUNDS height="8610" left="0" top="240" type="Window" width="23340">
    </BOUNDS>
    <NODE componentmode="InABox" id="37" nodename="IOBox (String)" systemname="IOBox (String)">
    <BOUNDS height="255" left="150" top="570" type="Node" width="570">
@@ -618,14 +618,8 @@
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="33.7.0">
    </PACK>
-   <NODE systemname="Line (DX11 FromTo)" filename="%VVVV%\packs\dx11\nodes\modules\Line (DX11 FromTo).v4p" nodename="Line (DX11 FromTo)" componentmode="Hidden" id="79">
-   <BOUNDS type="Node" left="1020" top="1470" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1020" top="1470">
-   </BOUNDS>
-   </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="124" systemname="IOBox (String)">
    <BOUNDS type="Node" left="1035" top="3645" width="5000" height="450">
    </BOUNDS>
@@ -663,7 +657,7 @@
    <NODE componentmode="Hidden" filename="Line (DX11).v4p" id="88" nodename="Line (DX11)" systemname="Line (DX11)">
    <BOUNDS height="270" left="6480" top="6765" type="Node" width="9225">
    </BOUNDS>
-   <BOUNDS height="15120" left="6375" top="1155" type="Window" width="19200">
+   <BOUNDS height="15120" left="6585" top="975" type="Window" width="19200">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
@@ -714,6 +708,10 @@
    </LINK>
    <LINK srcnodeid="88" srcpinname="Layer" dstnodeid="121" dstpinname="Layers">
    </LINK>
-   <PACK Name="dx11" Version="0.7.2">
-   </PACK>
+   <NODE systemname="Line (DX11 FromTo)" filename="Line (DX11 FromTo).v4p" nodename="Line (DX11 FromTo)" componentmode="Hidden" id="79">
+   <BOUNDS type="Node" left="1020" top="1470" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1020" top="1470">
+   </BOUNDS>
+   </NODE>
    </PATCH>

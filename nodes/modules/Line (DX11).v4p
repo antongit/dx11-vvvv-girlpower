@@ -1,10 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha35.1.dtd" >
-   <PATCH nodename="C:\Work\vvvv-private\public\vvvv45\packs\dx11\nodes\modules\Line (DX11).v4p" scrollx="0" scrolly="6822" systemname="Line (DX11)" filename="C:\vvvv\beta\vvvv_45beta33.3_x86\packs\dx11\nodes\modules\Line (DX11).v4p">
-   <BOUNDS type="Window" left="6120" top="2085" width="12045" height="7140">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="C:\Work\dx11-vvvv-girlpower\nodes\modules\Line (DX11).v4p" scrollx="0" scrolly="-1299" systemname="Line (DX11)" filename="C:\vvvv\beta\vvvv_45beta33.3_x86\packs\dx11\nodes\modules\Line (DX11).v4p">
+   <BOUNDS type="Window" left="6585" top="975" width="19200" height="15120">
    </BOUNDS>
-   <PACK Name="dx11" Version="0.7.2">
-   </PACK>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="33.7.0">
    </PACK>
    <NODE componentmode="InABox" id="58" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="8025" top="825" type="Node" width="0">
@@ -569,7 +567,7 @@
    </PIN>
    <PIN pinname="Geometry" visible="1">
    </PIN>
-   <PIN pinname="Transform In" visible="1" slicecount="98" values=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,">
+   <PIN pinname="Transform In" visible="1" slicecount="2" values=",">
    </PIN>
    <PIN pinname="Color" visible="1" slicecount="1" values="|1.00000,1.00000,1.00000,1.00000|">
    </PIN>
